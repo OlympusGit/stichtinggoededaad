@@ -1,4 +1,8 @@
-
+<?php $title = 'Stichting Goede Daad'; ?>
+<?php $metaTags = ''; ?>
+<?php $currentPage = 'HOME'; ?>
+<?php include('head.php'); ?>
+<?php include('navbar.php'); ?>
 
 <!--banner start here-->
   
