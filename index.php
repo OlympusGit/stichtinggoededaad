@@ -6,7 +6,7 @@
 
 <!--banner start here-->
   
-          <script src="js/responsiveslides.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
        <script>
           // You can also use "$(window).load(function() {"
           $(function () {
