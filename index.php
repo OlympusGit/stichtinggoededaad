@@ -1,4 +1,4 @@
-<?php $title = 'Stichting Goede Daad en lol'; ?>
+<?php $title = 'Stichting Goede Daad'; ?>
 <?php $metaTags = ''; ?>
 <?php $currentPage = 'HOME'; ?>
 <?php include('head.php'); ?>
