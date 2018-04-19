@@ -1,8 +1,4 @@
-<?php $title = 'Events &#8211; Stichting Goede Daad'; ?>
-<?php $metaTags = ''; ?>
-<?php $currentPage = 'EVENTS'; ?>
-<?php include('head.php'); ?>
-<?php include('navbar.php'); ?>
+<p>LOLOLOLOL</p>
 
 <div style="margin-top: 100px; margin-bottom: 70px;">
 <div class="container">
