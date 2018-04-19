@@ -1,7 +1,7 @@
 # Stichtinggoededaad
 Dit is Stichtinggoededaad een stichting. Github is dat je dingen kunt veranderen in de code en dat de Applicatie Ontwikkelaar dat dan automatisch heeft, dat doe je hier.
 
-===================================================================================
+=================================================================================
 
 # Stap 1 
 Scroll naar beneden en klik op "index.php".
@@ -15,4 +15,4 @@ Zoek naar de gewenste tekst en verander dat, scroll dan naar beneden en klik op 
 # Stap 4
 Contact de Applicatie Ontwikkelaar en zeg dat je het genodigde hebt veranderd.
 
-====================================================================================
+=================================================================================
