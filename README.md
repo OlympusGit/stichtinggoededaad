@@ -1,5 +1,5 @@
 # Stichtinggoededaad
-Dit is Stichtinggoededaad een stichting. Github is dat je dingen kunt veranderen in de code en dat de Applicatie Ontwikkelaar dat dan automatisch heeft, dat doe je hier.
+Dit is Stichtinggoededaad een stichting. Github is een website dat je genodigde codes kunt delen/veranderen en dat de Applicatie Ontwikkelaar het automatisch ontvangt.
 
 =================================================================================
 
