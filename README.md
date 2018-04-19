@@ -4,7 +4,7 @@ Dit is Stichtinggoededaad een stichting. Github is een website dat je genodigde 
 =================================================================================
 
 # Stap 1 
-Scroll naar beneden en klik op "index.php".
+Scroll naar boven en klik op "index.php".
 
 # Stap 2
 Klik rechts boven in het midden op een klein potloodje om tekst te bewerken.
