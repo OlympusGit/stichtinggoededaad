@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vrijwilligers &#8211; Stichting Goede Daad</title>
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	<?php session_start();
+
+	if(!isset($_SESSION['UserData']['Username'])){
+		header("location:login.php");
+		exit;
+	}
+	?>
+
+</script>
+ <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!--web-fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--js-->
+<script src="js/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- //end-smoth-scrolling -->
+<style>
+
+	.lel {
+			border: 1px solid white;
+			padding-left: 20px;
+			padding-top: 20px;
+			color: white;
+		}
+		
+		@media screen and (min-width: 680px) {
+
+  .dude {
+    max-width: 680px;
+  }
+
+}
+
+}
+</style>
+</head>
+<body>
+<!--header start here-->
+<!-- <div class="mother-grid" style="margin-top: 80px;"> -->
+	<!-- <div class="container"> -->
+		<!-- <div class="header"> -->	
+			<!-- <div class="header-left">
+				   <a href="index.html"> <img src="images/logo.png" style="width: 40%; height: 40%;"> </a>
+			</div>
+			<span class="menu"> <img src="images/icon-1.png"></span> -->
+			<!-- <div class="clear"> </div>
+			<div class="header-right"> -->
+			<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="home.php"><img src="images/logo.png" width="150" height="150" style="margin-top: auto; max-width: 100%; height: auto; margin-top: -25px;"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="home.php">HOME</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">PROJECTEN <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="projecten.html">PROJECTEN</a></li>
+			<li><a href="events.html">EVENTS</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="vrijwilligers.html">VRIJWILLIGERS</a></li>
+		<li><a href="fondsenwerving.html">FONDSENWERVING</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+				   <script>
+			                                                      $( "span.menu").click(function() {
+			                                                                                        $(  "ul.res" ).slideToggle("slow", function() {
+			                                                                                         // Animation complete.
+			                                                                                         });
+			                                                                                         });
+		                                                     </script>
+
+
+
+
+<div style="margin-bottom: 60px;">
+	<div class="dude" style="
+  margin: 10px auto;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;">
+<h1 style="text-align: center; font-weight: bold; color: #ec4700;">Vrijwilligers</h1>
+
+<br>
+<br>
+
+<div style="text-align: center;">
+	
+
+		
+		<p style="display: inline-block; text-align: left;">
+
+		<strong style="font-size: 20px;">"The best way to find yourself is to lose yourself in the <br> service of others "</strong> (M. Gandhi)
+
+			<br>
+			<br>
+
+			Wij verbinden de mensen die iets te bieden hebben, met hen die <br> daarmee kunnen worden geholpen.
+
+			<br>
+			<br>
+
+			Echter zijn we nog steeds opzoek naar mensen die hun tijd en energie <br>willen geven aan hun medemens en ons team van vrijwilligers willen <br> komen versterken. 
+
+			<br>
+			<br>
+
+			Eveneens verwelkomt Stichting Goede daad alle hulpverleners / <br>
+			professionals, die een bijdrage willen leveren aan het realiseren van <br>
+			onze projecten, in de vorm van kennisoverdracht en het verzorgen <br>
+			van workshops. Wij kunnen u verzekeren dat het een waardevolle <br>
+			investering is van uw tijd. 
+
+
+			<br>
+			<br>
+
+			Heeft u belangstelling om te overtuigen dat wij uw kennis en inzet <br>
+			kunnen gebruiken (hetzij als <strong> individu, groep</strong> of <strong> bedrijf</strong>) om onze <br>doelgroepen mee te laten doen met de maatschappij? Meld je dan <a style="color: red;" href="contact.html">hier</a> <br> aan.
+
+
+		</p>
+</div>
+</div>
+</div>
+</div>
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+			<div class="col-md-4 footer-top">
+				<h3 style="font-size: 16px;">OPEN DONATIE</h3>
+		<div class="contact-main">
+	<div class="lel">
+		<h4>Helpt u een handje mee?</h4>
+		<br>
+		<div class="text">
+		&euro; <input type="text" name="betalen">
+		</div>
+		<br>
+		<br>
+		<div class="text">
+			<input style="margin-left: auto; margin-bottom: auto; color: white;" type="submit" value="Verzenden">
+		</div>
+	</div>
+	</div>
+	</div>
+			</div>
+			<div class="col-md-2 footer-top">
+				<h3 style="font-size: 16px;">SITEMAP </h3>
+				<ul>
+					<li><a style="color: white;" href="home.php"> HOME</a></li>
+					<li><a style="color: white;" href="projecten.html"> PROJECTEN</a></li>
+					<li><a style="color: white;" href="events.html"> EVENTS</a></li>
+					<li><a style="color: white;" href="vrijwilligers.html"> VRIJWILLIGERS</a></li>
+					<li><a style="color: white;" href="fondsenwerving.html"> FONDSENWERVING</a></li>
+					<!-- <li><a href="about.html"> ABOUT</a></li> -->
+					<!-- <li><a href="give.html"> DONATE</a></li> -->
+					<!-- <li><a href="whatwedo.html"> WHAT WE DO</a></li> -->
+					<!-- <li><a href="give.html"> GIVE</a></li> -->
+					<li><a style="color: white;" href="contact.html"> CONTACT</a></li>
+				</ul>
+				<div class="clear fix"> </div>
+			</div>
+			<div class="col-lg-3 footer-top">
+				 <h3 style="font-size: 16px;">VOLG ONS OP:</h3>
+		       		<i style="font-size: 80px; margin-left: 20px;" class="fa fa-linkedin-square" aria-hidden="true"></i>
+		       		<i style="font-size: 80px; margin-left: 20px;" class="fa fa-twitter-square" aria-hidden="true"></i>
+
+		      <div class="clear fix"> </div>
+			</div>
+			<div class="col-md-2 footer-top">
+				<p><strong>TEL:</strong> +32 (0) 11 81 35 23</p>
+				<p style="font-weight: bold"> EMAIL:<a href="mailto:info@stichtinggoededaad.com"> info@stichtinggoededaad.com</a></p>
+				<br>
+				<h3 style="font-size: 13.25px; font-weight: bold"> STICHTING GOEDE DAAD</h3>
+				<p>KVK: 0684.190.268</p>
+				<br>
+				<br>
+				<h3 style="font-size: 13.25px; font-weight: bold;"> BANKGEGEVENS</h3>
+				<p>Stichting Goede Daad <br>
+				ING: BE90 3631 6995 2932</p>
+
+			</div>
+			<div class="clear fix"> </div>
+		</div>
+	</div>
+</div>
+<!--/footer end here-->
+<!--copyrights start here-->
+<div class="copyright">
+	<div class="container">
+		<div class="copy-right-main">
+			<div class="col-md-6 copy-left">
+				<p style="color: #45b5db;">&copy 2017 Stichtinggoededaad. by <a href="#">JMarkiet</a></p>
+			</div>
+			<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
