@@ -9,11 +9,7 @@
       <span class="menu"> <img src="images/icon-1.png"></span> -->
       <!-- <div class="clear"> </div>
       <div class="header-right"> -->
-  <nav class="navbar navbar-inverse">
-<header role="banner">
-  <div id="main"><a href="/"><img style="margin-left: 35%;" id="logo-main" src="images/logo.png" width="200px" alt="Logo Thing main logo"></a></div>
-  <div id="stg"><a href="/"><img  src="images/letter.png" id="letter" width="310px" alt="Letter Logo"></a></div>
-  <p style="clear: both;">
+
   <!-- <div class="container">
     <h1>Stichting Goede Daad</h1>
   </div> -->
