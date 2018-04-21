@@ -7,7 +7,9 @@
 <!--banner start here-->
   
   <script src="js/responsiveslides.min.js"></script>
-       <script>
+  
+      <!-- Slider 4 in div active if div is enabled.
+        <script>
           // You can also use "$(window).load(function() {"
           $(function () {
             // Slideshow 4
@@ -26,7 +28,7 @@
             });
       
           });
-        </script>
+        </script> -->
     
   <div class="dude" style="
   margin: 10px auto;
