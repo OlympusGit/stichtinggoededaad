@@ -6,8 +6,10 @@
 
 <!--banner start here-->
   
-          <script src="js/responsiveslides.min.js"></script>
-       <script>
+  <script src="js/responsiveslides.min.js"></script>
+  
+      <!-- Slider 4 in div active if div is enabled.
+        <script>
           // You can also use "$(window).load(function() {"
           $(function () {
             // Slideshow 4
@@ -26,7 +28,7 @@
             });
       
           });
-        </script>
+        </script> -->
     
   <div class="dude" style="
   margin: 10px auto;
@@ -164,54 +166,7 @@
 
 <p>
   Stichting Goede Daad is financieel nog niet zelfvoorzienend en ook niet onafhankelijk van giften en subsidies. We zijn sociaal, in de wijze waarop de onderneming wordt gevoerd. Winst mag, maar de financiële doelen staan ten dienste van de missie, namelijk de maatschappelijke impact vergroten. 
-</p>
 
-<br>
-
-<p>
-  Kortom...wij willen mensen inspireren, met elkaar verbinden en versterken om zakelijke ideeen te realiseren voor een duurzame impact.
-</p>
-
-</div>
-<div class="vc_btn3-container vc_btn3-inline"><a data-toggle="collapse" data-target="#demo3" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-grey" href="#" title=""><i class="vc_btn3-icon fa fa-info"></i> Meer info...</a>
-</div>
-</div>
-</div>
-</div>
-
-<br>
-<br>
-  
-<div id="response">
-<div class="text-wrap">
-        <div class="center">
-
-<p>
-  <strong>Kunst en cultuur projecten</strong>
-</p>
-
-<br>
-
-<p>
-  Onze kunst en cultuur projecten bieden mensen de mogelijkheid zichzelf creatief uit te drukken, wat zorgt voor zingeving en verbinding met anderen. Het helpt de samenleving hun emoties te uiten, maar ook inspiratie en troost te ervaren.
-</p>
-
-<br>
-<div id="demo4" class="collapse">
-<p>
-  In de vorm van theater, dans en muziek, willen wij deze projecten tot een succes maken.
-</p>
-
-
-</div>
-<div class="vc_btn3-container vc_btn3-inline"><a data-toggle="collapse" data-target="#demo4" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-grey" href="#" title=""><i class="vc_btn3-icon fa fa-info"></i> Meer info...</a>
-</div>
-</div>
-</div>
-</div>
-
-<br>
-<br>
 
 <div id="response">
 <div class="text-wrap">
