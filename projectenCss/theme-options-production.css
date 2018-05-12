@@ -750,9 +750,9 @@ a:hover {
 .mk-skin-button.three-dimension:active {
  box-shadow:0px 1px 0px 0px #b1036e;
 }
-body {
+/* body {
  font-family:"Open Sans";
-}
+} */
 .product-loading-icon {
  background-color:rgba(221,4,138,0.6);
 }
